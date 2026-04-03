@@ -1,0 +1,89 @@
+:root {
+  --deep-green: #1a4731;
+  --mid-green: #2d6a4f;
+  --gold: #b5883e;
+  --cream: #faf7f2;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: var(--cream);
+}
+
+header {
+  background: var(--deep-green);
+  color: white;
+  padding: 10px 20px;
+}
+
+.top-banner {
+  background: var(--gold);
+  text-align: center;
+  font-family: 'Amiri', serif;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(26,71,49,0.9)), url('placeholder.png');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.btn {
+  background: var(--gold);
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.section {
+  padding: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: var(--deep-green);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(var(--mid-green), var(--gold));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
